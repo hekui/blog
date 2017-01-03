@@ -2,12 +2,12 @@
 layout: default
 title: Myname's blog
 ---
+
 <h2>{{ page.title }}</h2>
 <ul>
-  {% for post in site.posts %}
-<li>
-{{ post.date | date_to_string }} &nbsp;
-<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-</li>
-  {% endfor %}
+	{% for post in site.posts %}
+	<li>
+		{{ post.date | date_to_string }} &nbsp; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+	</li>
+	{% endfor %}
 </ul>
