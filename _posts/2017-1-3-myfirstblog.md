@@ -1,6 +1,5 @@
 ---
 layout: default
-title: My first article
 ---
 
 <h2>{{ page.title }}</h2>
