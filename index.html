@@ -3,13 +3,15 @@ layout: default
 title: Hekui's blog
 ---
 
-<h2>{{ page.title }}</h2>
-<p>专注于前端的一个人。</p>
-<h3>Blog Posts</h3>
-<ul>
-	{% for post in site.posts %}
-	<li>
-		<span class="gray">{{ post.date | date_to_string }}</span> » <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-	</li>
-	{% endfor %}
-</ul>
+<div class="container">
+	<h2>{{ page.title }}</h2>
+	<p>专注于前端的一个人。</p>
+	<h3>Blog Posts</h3>
+	<ul class="post">
+		{% for post in site.posts %}
+		<li>
+			<span class="gray">{{ post.date | date_to_string }}</span> » <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+		</li>
+		{% endfor %}
+	</ul>
+</div>
