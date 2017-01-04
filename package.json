@@ -9,7 +9,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"push": "git add . && git commit -m 'edit' && git push origin master"
+	"publish": "git add . && git commit -m 'edit' && git push origin master"
   },
   "repository": {
     "type": "git",
