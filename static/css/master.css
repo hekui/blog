@@ -7,6 +7,7 @@ body {
   background-color: white;
   font: 13.34px helvetica, arial, clean, sans-serif;
   *font-size: small;
+  margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -46,6 +47,7 @@ table {
 	width: 1160px;
 	margin-left: auto;
 	margin-right: auto;
+	overflow: hidden;
 }
 .gray{ color: #aaa;}
 
@@ -56,4 +58,5 @@ table {
 /*****************************************************************************/
 .post{
 	list-style-type: none;
+	margin-left: 0;
 }
